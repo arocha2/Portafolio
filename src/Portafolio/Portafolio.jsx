@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { IoIosArrowRoundForward } from "react-icons/io";
 
@@ -6,7 +5,7 @@ export const Portafolio = () => {
   return (
     <section className="  bg-cyan-950 w-full px-4 py-5 pb-32">
       <div className=" max-w-5xl m-auto">
-        <h2 className="text-center  fontcode text-2xl md:text-5xl text-gray-300 font-bold ">
+        <h2 className="text-center  fontcode text-3xl md:text-5xl text-gray-300 font-bold ">
           Te mostramos nuestros{" "}
           <span className="text-cyan-300">proyectos </span>
         </h2>

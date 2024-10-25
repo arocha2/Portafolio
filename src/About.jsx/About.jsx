@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 export const About = () => {
   return (
     <section className="bg-cyan-950 w-full py-10 pb-32  ">
-      <div className=" bg-zinc-800 w-full -rotate-6 -skew-x-6 py-40  ">
+      <div className=" bg-zinc-800 w-full -rotate-6 -skew-x-6 py-40 p-6  ">
         <div className="max-w-5xl m-auto px-4 md:px-0 rotate-6 skew-x-6">
-          <h2 className="text-center md:text-left mb-6 fontcode text-2xl md:text-5xl text-gray-300 font-bold ">
+          <h2 className="text-center md:text-left mb-6 fontcode text-3xl md:text-5xl text-gray-300 font-bold ">
             <span className="text-cyan-300">Landing</span> o{" "}
             <span className="text-green-400">App.</span> Tú solo te preocupas
             por los detalles

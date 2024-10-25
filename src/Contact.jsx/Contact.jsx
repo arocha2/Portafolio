@@ -26,7 +26,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="bg-gradient-to-t from-cyan-950 to-transparent text-gray-300 font-bold w-full flex flex-col gap-10 justify-center items-center py-20 ">
+    <section className="bg-gradient-to-t from-cyan-950 to-transparent text-gray-300 font-bold w-full flex flex-col gap-10 justify-center items-center py-20 px-6">
       <h2 className="text-center text-2xl md:text-4xl">
         Información de interés por si quieres saber mas
       </h2>

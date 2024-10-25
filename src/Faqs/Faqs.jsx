@@ -1,4 +1,3 @@
-import React from "react";
 import { Contact } from "../Contact.jsx/Contact";
 
 const preguntas = [
@@ -33,7 +32,7 @@ export const Faqs = () => {
           Preguntas Frecuentes
         </h2>
         <div className="mt-6 border-t-2 border-cyan-300 pt-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 md:gap-y-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-x-8 md:gap-y-12">
             {preguntas.map((preg) => (
               <dl key={preg.id}>
                 <dt className="font-semibold leading-6 text-cyan-300 text-lg mt-2 fontcode">
